@@ -4,7 +4,7 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   const containerStyle = {
-    backgroundImage: "url('/images/background.jpg')",
+    backgroundImage: "url('/downloads.jpg')",
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
@@ -18,11 +18,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
+        <Header title="Progress Page" />
+     
         {/* Your HTML table with CSS code goes here */}
         <form>
           <table>
