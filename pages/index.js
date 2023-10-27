@@ -4,7 +4,7 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container" style={{ backgroundImage: "url('/images/background.jpg')" }}>
+    <div className="container" style={{ backgroundImage: "url('public/download.jpg')" }}>
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
