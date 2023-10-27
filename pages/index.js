@@ -3,15 +3,25 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 export default function Home() {
+  const containerStyle = {
+    backgroundImage: "url('/images/background.jpg')",
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+  };
+
   return (
-    <div className="container" style={{ backgroundImage: "url('/download.jpg')" }}>
+    <div className="container" style={containerStyle}>
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Progress Page" />
+        <Header title="Welcome to my app!" />
+        <p className="description">
+          Get started by editing <code>pages/index.js</code>
+        </p>
 
         {/* Your HTML table with CSS code goes here */}
         <form>
