@@ -1,19 +1,20 @@
-// Import necessary components and styles
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container" style={{ backgroundImage: "url()" }}>
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Progress Page " />
-        
+        <Header title="Welcome to my app!" />
+        <p className="description">
+          Get started by editing <code>pages/index.js</code>
+        </p>
 
         {/* Your HTML table with CSS code goes here */}
         <form>
@@ -45,4 +46,3 @@ export default function Home() {
     </div>
   )
 }
-
